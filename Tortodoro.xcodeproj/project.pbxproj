@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255994501934D75A006B8F29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2559944F1934D75A006B8F29 /* Foundation.framework */; };
+		255994521934D75A006B8F29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255994511934D75A006B8F29 /* CoreGraphics.framework */; };
+		255994541934D75A006B8F29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255994531934D75A006B8F29 /* UIKit.framework */; };
+		2559945A1934D75A006B8F29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 255994581934D75A006B8F29 /* InfoPlist.strings */; };
+		2559945C1934D75A006B8F29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2559945B1934D75A006B8F29 /* main.m */; };
+		255994601934D75A006B8F29 /* VWTimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2559945F1934D75A006B8F29 /* VWTimerAppDelegate.m */; };
+		255994631934D75A006B8F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255994611934D75A006B8F29 /* Main.storyboard */; };
+		255994661934D75A006B8F29 /* VWTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255994651934D75A006B8F29 /* VWTimerViewController.m */; };
+		255994681934D75A006B8F29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255994671934D75A006B8F29 /* Images.xcassets */; };
+		2559946F1934D75A006B8F29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2559946E1934D75A006B8F29 /* XCTest.framework */; };
+		255994701934D75A006B8F29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2559944F1934D75A006B8F29 /* Foundation.framework */; };
+		255994711934D75A006B8F29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255994531934D75A006B8F29 /* UIKit.framework */; };
+		255994791934D75A006B8F29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 255994771934D75A006B8F29 /* InfoPlist.strings */; };
+		2559947B1934D75A006B8F29 /* TortodoroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2559947A1934D75A006B8F29 /* TortodoroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255994721934D75A006B8F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255994441934D75A006B8F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2559944B1934D75A006B8F29;
+			remoteInfo = Tortodoro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2559944C1934D75A006B8F29 /* Tortodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tortodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2559944F1934D75A006B8F29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		255994511934D75A006B8F29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		255994531934D75A006B8F29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		255994571934D75A006B8F29 /* Tortodoro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tortodoro-Info.plist"; sourceTree = "<group>"; };
+		255994591934D75A006B8F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2559945B1934D75A006B8F29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2559945D1934D75A006B8F29 /* Tortodoro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tortodoro-Prefix.pch"; sourceTree = "<group>"; };
+		2559945E1934D75A006B8F29 /* VWTimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWTimerAppDelegate.h; sourceTree = "<group>"; };
+		2559945F1934D75A006B8F29 /* VWTimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWTimerAppDelegate.m; sourceTree = "<group>"; };
+		255994621934D75A006B8F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255994641934D75A006B8F29 /* VWTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWTimerViewController.h; sourceTree = "<group>"; };
+		255994651934D75A006B8F29 /* VWTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWTimerViewController.m; sourceTree = "<group>"; };
+		255994671934D75A006B8F29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2559946D1934D75A006B8F29 /* TortodoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TortodoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2559946E1934D75A006B8F29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		255994761934D75A006B8F29 /* TortodoroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TortodoroTests-Info.plist"; sourceTree = "<group>"; };
+		255994781934D75A006B8F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2559947A1934D75A006B8F29 /* TortodoroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TortodoroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255994491934D75A006B8F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255994521934D75A006B8F29 /* CoreGraphics.framework in Frameworks */,
+				255994541934D75A006B8F29 /* UIKit.framework in Frameworks */,
+				255994501934D75A006B8F29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2559946A1934D75A006B8F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2559946F1934D75A006B8F29 /* XCTest.framework in Frameworks */,
+				255994711934D75A006B8F29 /* UIKit.framework in Frameworks */,
+				255994701934D75A006B8F29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255994431934D75A006B8F29 = {
+			isa = PBXGroup;
+			children = (
+				255994551934D75A006B8F29 /* Tortodoro */,
+				255994741934D75A006B8F29 /* TortodoroTests */,
+				2559944E1934D75A006B8F29 /* Frameworks */,
+				2559944D1934D75A006B8F29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2559944D1934D75A006B8F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2559944C1934D75A006B8F29 /* Tortodoro.app */,
+				2559946D1934D75A006B8F29 /* TortodoroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2559944E1934D75A006B8F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2559944F1934D75A006B8F29 /* Foundation.framework */,
+				255994511934D75A006B8F29 /* CoreGraphics.framework */,
+				255994531934D75A006B8F29 /* UIKit.framework */,
+				2559946E1934D75A006B8F29 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		255994551934D75A006B8F29 /* Tortodoro */ = {
+			isa = PBXGroup;
+			children = (
+				2559945E1934D75A006B8F29 /* VWTimerAppDelegate.h */,
+				2559945F1934D75A006B8F29 /* VWTimerAppDelegate.m */,
+				255994611934D75A006B8F29 /* Main.storyboard */,
+				255994641934D75A006B8F29 /* VWTimerViewController.h */,
+				255994651934D75A006B8F29 /* VWTimerViewController.m */,
+				255994671934D75A006B8F29 /* Images.xcassets */,
+				255994561934D75A006B8F29 /* Supporting Files */,
+			);
+			path = Tortodoro;
+			sourceTree = "<group>";
+		};
+		255994561934D75A006B8F29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255994571934D75A006B8F29 /* Tortodoro-Info.plist */,
+				255994581934D75A006B8F29 /* InfoPlist.strings */,
+				2559945B1934D75A006B8F29 /* main.m */,
+				2559945D1934D75A006B8F29 /* Tortodoro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		255994741934D75A006B8F29 /* TortodoroTests */ = {
+			isa = PBXGroup;
+			children = (
+				2559947A1934D75A006B8F29 /* TortodoroTests.m */,
+				255994751934D75A006B8F29 /* Supporting Files */,
+			);
+			path = TortodoroTests;
+			sourceTree = "<group>";
+		};
+		255994751934D75A006B8F29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255994761934D75A006B8F29 /* TortodoroTests-Info.plist */,
+				255994771934D75A006B8F29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2559944B1934D75A006B8F29 /* Tortodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2559947E1934D75A006B8F29 /* Build configuration list for PBXNativeTarget "Tortodoro" */;
+			buildPhases = (
+				255994481934D75A006B8F29 /* Sources */,
+				255994491934D75A006B8F29 /* Frameworks */,
+				2559944A1934D75A006B8F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tortodoro;
+			productName = Tortodoro;
+			productReference = 2559944C1934D75A006B8F29 /* Tortodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2559946C1934D75A006B8F29 /* TortodoroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255994811934D75A006B8F29 /* Build configuration list for PBXNativeTarget "TortodoroTests" */;
+			buildPhases = (
+				255994691934D75A006B8F29 /* Sources */,
+				2559946A1934D75A006B8F29 /* Frameworks */,
+				2559946B1934D75A006B8F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255994731934D75A006B8F29 /* PBXTargetDependency */,
+			);
+			name = TortodoroTests;
+			productName = TortodoroTests;
+			productReference = 2559946D1934D75A006B8F29 /* TortodoroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255994441934D75A006B8F29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VWTimer;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Villim;
+				TargetAttributes = {
+					2559946C1934D75A006B8F29 = {
+						TestTargetID = 2559944B1934D75A006B8F29;
+					};
+				};
+			};
+			buildConfigurationList = 255994471934D75A006B8F29 /* Build configuration list for PBXProject "Tortodoro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255994431934D75A006B8F29;
+			productRefGroup = 2559944D1934D75A006B8F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2559944B1934D75A006B8F29 /* Tortodoro */,
+				2559946C1934D75A006B8F29 /* TortodoroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2559944A1934D75A006B8F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255994681934D75A006B8F29 /* Images.xcassets in Resources */,
+				2559945A1934D75A006B8F29 /* InfoPlist.strings in Resources */,
+				255994631934D75A006B8F29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2559946B1934D75A006B8F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255994791934D75A006B8F29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255994481934D75A006B8F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2559945C1934D75A006B8F29 /* main.m in Sources */,
+				255994601934D75A006B8F29 /* VWTimerAppDelegate.m in Sources */,
+				255994661934D75A006B8F29 /* VWTimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255994691934D75A006B8F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2559947B1934D75A006B8F29 /* TortodoroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255994731934D75A006B8F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2559944B1934D75A006B8F29 /* Tortodoro */;
+			targetProxy = 255994721934D75A006B8F29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255994581934D75A006B8F29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255994591934D75A006B8F29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		255994611934D75A006B8F29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255994621934D75A006B8F29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255994771934D75A006B8F29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255994781934D75A006B8F29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2559947C1934D75A006B8F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2559947D1934D75A006B8F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2559947F1934D75A006B8F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tortodoro/Tortodoro-Prefix.pch";
+				INFOPLIST_FILE = "Tortodoro/Tortodoro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		255994801934D75A006B8F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tortodoro/Tortodoro-Prefix.pch";
+				INFOPLIST_FILE = "Tortodoro/Tortodoro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		255994821934D75A006B8F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tortodoro.app/Tortodoro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tortodoro/Tortodoro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TortodoroTests/TortodoroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		255994831934D75A006B8F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tortodoro.app/Tortodoro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tortodoro/Tortodoro-Prefix.pch";
+				INFOPLIST_FILE = "TortodoroTests/TortodoroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255994471934D75A006B8F29 /* Build configuration list for PBXProject "Tortodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2559947C1934D75A006B8F29 /* Debug */,
+				2559947D1934D75A006B8F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2559947E1934D75A006B8F29 /* Build configuration list for PBXNativeTarget "Tortodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2559947F1934D75A006B8F29 /* Debug */,
+				255994801934D75A006B8F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		255994811934D75A006B8F29 /* Build configuration list for PBXNativeTarget "TortodoroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255994821934D75A006B8F29 /* Debug */,
+				255994831934D75A006B8F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255994441934D75A006B8F29 /* Project object */;
+}
